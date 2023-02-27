@@ -1,0 +1,190 @@
+@import "fonts";
+
+.my_container {
+    background-color: #f5ece1;
+    overflow: hidden;
+}
+.img-des {
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    font-family: "Bai Jamjuree";
+    font-weight: normal;
+    font-style: italic;
+}
+.img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.img_700 {
+    max-width: 100%;
+    width: 700px;
+    height: auto;
+    margin: 30px auto;
+    display: block;
+}
+
+.img_1 {
+    margin-top: -20%;
+}
+.img_3 {
+    margin-top: -20%;
+}
+.img_7 {
+    margin-top: -18%;
+    position: relative;
+    z-index: 1;
+}
+.text_title {
+    width: 850px;
+    max-width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 26px;
+    font-family: "Philosopher";
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.text_content {
+    width: 700px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 18px;
+    position: relative;
+    font-family: "K2D";
+    font-weight: normal;
+    font-style: normal;
+}
+.group_image {
+    // width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    img:first-child {
+        position: initial;
+    }
+    margin-bottom: 30px;
+}
+
+.group_image_933 {
+    width: 933px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.group_image_1366 {
+    width: 1366px;
+}
+.group_image_1830 {
+    width: 1830px;
+    margin-bottom: 50px;
+}
+.cover {
+    background-color: #f7dcbd;
+}
+
+.img_6 {
+    margin-top: -10%;
+}
+.img_8 {
+    margin-top: -16%;
+}
+.img_11 {
+    margin-top: -5%;
+}
+
+.img_10 {
+    margin-top: -11%;
+    margin-bottom: 22px !important;
+}
+
+.group_text_1 {
+    padding-bottom: 100px;
+}
+.group_text_12 {
+    margin-top: -22%;
+}
+.group_text_14 {
+    margin-top: -20%;
+}
+
+.group_text_15 {
+    margin-top: -4%;
+}
+
+.group_image_6 {
+    margin-top: -9%;
+    margin-bottom: 5%;
+    margin-right: 20px;
+}
+.group_image_8 {
+    z-index: 10;
+    margin-top: -2%;
+}
+
+.section_1 {
+    margin-top: -27%;
+    overflow: hidden;
+}
+
+.section_1_1 {
+    background-image: url("../images/bg_1.png");
+    // padding-bottom: 100px;
+    background-repeat: no-repeat;
+}
+
+.section_2 {
+    // margin-top: -27%;
+    overflow: hidden;
+}
+.section_2_1 {
+    background-image: url("../images/bg_2.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-bottom: 0%;
+    // background-size: cover;
+}
+.section_2_2 {
+    background-image: url("../images/bg_3.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 0%;
+    min-height: 620px;
+    // background-size: cover;
+}
+.author {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    // bottom: -10px;
+    font-size: 18px;
+    font-family: "San Francisco Text";
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    // width: 700px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    p {
+        text-align: center;
+        span {
+            font-weight: bold;
+        }
+        margin-bottom: 0;
+    }
+    padding-bottom: 30px;
+}
